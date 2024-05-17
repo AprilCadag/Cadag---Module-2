@@ -1,17 +1,12 @@
-# Cadag--Module-2
-This Solidity program serves as a basic example to introduce beginners to Solidity syntax and common patterns. It illustrates the usage of state variables, constructor, functions, and error handling mechanisms. 
+# Starter Next/Hardhat Project
 
-## Description
-This is a simplified Ethereum wallet interface, allowing users to interact with their MetaMask or similar wallet. It manages user state, including account address and balance, and facilitates actions like connecting the wallet, depositing and withdrawing Ether from a smart contract. The rendering includes basic UI elements such as account information and buttons for transactions, with minimal styling applied for presentation.
+After cloning the github, you will want to do the following to get the code running on your computer.
 
-## Getting Started
-### Executing program
-To run this program, you can use Visual Studio Code. To get started, go to the VsCode app.
+1. Inside the project directory, in the terminal type: npm i
+2. Open two additional terminals in your VS code
+3. In the second terminal type: npx hardhat node
+4. In the third terminal, type: npx hardhat run --network localhost scripts/deploy.js
+5. Back in the first terminal, type npm run dev to launch the front-end.
 
-Once you are on the Vscode, copy the link of the file and paste it in the vscode or download the file and open the folder in the vscode. Save the file with a .sol extension (e.g., module2.sol).
-
-## Auuthor
-April Cadag
-
-## License
-This project is licensed under the MIT License - see the LICENSE.md file for details
+After this, the project will be running on your localhost. 
+Typically at http://localhost:3000/
